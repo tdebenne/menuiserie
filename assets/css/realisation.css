@@ -1,0 +1,12 @@
+.showMore
+{
+    position : relative;
+    width:100%;
+    height:100%;
+}
+
+.imgVp{
+    position:relative;
+    width:60%;
+    height:70%;
+}

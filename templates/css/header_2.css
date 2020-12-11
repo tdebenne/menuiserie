@@ -1,0 +1,27 @@
+header{
+    position:relative;
+    height:15vw;
+    width:100%;
+    background-color:rgb(78, 61, 40);
+    top:0%;
+    color:white;
+}
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+@font-face {
+	font-family: 'TodayPeople';
+	src: url('./font/people/TodayPeople.eot');
+	src: local('TodayPeople'), url('./font/people/TodayPeople.woff') format('woff'), url('./font/people/TodayPeople.ttf') format('truetype');
+}
+
+header p{
+    position:absolute;
+    width:30%;
+    left:37.5%;
+    top:10%;
+    margin:0%;
+
+    font-family: 'TodayPeople';
+    font-size:5vw;
+    text-align:center;
+}

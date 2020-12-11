@@ -1,0 +1,213 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    min-height:600px;
+}
+@font-face {
+	font-family: 'TodayPeople';
+	src: url('./font/people/TodayPeople.eot');
+	src: local('TodayPeople'), url('./font/people/TodayPeople.woff') format('woff'), url('./font/people/TodayPeople.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'portcreb';
+	src: url('./font/portcrep/portcreb.eot');
+	src: local('portcreb'), url('./font/portcreb/portcreb.woff') format('woff'), url('./font/portcreb/portcreb.ttf') format('truetype');
+}
+
+body{
+    background-color:rgb(246, 235, 218);
+
+    font-size:1vw;
+    font-family: 'Saira Extra Condensed', sans-serif;
+           letter-spacing: 1px;
+           -webkit-font-smoothing: antialiased;
+
+
+}
+
+
+.form {
+    position:relative;
+    width:80%;
+    height:40vw;
+    margin:10%;
+    
+    border-style:solid;
+    border-width:0.3vw;
+    border-color:rgb(61, 43, 31);
+    border-radius:5px;
+
+    text-align:center;
+
+    margin-bottom:5%;
+
+    font-size:1vw;
+    font-family: 'Saira Extra Condensed', sans-serif;
+           letter-spacing: 1px;
+           -webkit-font-smoothing: antialiased;
+        
+    overflow:scroll;
+}
+
+#title{
+    
+    height:6%;
+}
+
+.formElem{
+    margin-top:1%;
+    margin-bottom:1%;
+}
+.form h3{
+    font-size:1.3vw;
+    color:rgb(61, 43, 31);
+    font-family: 'Saira Extra Condensed', sans-serif;
+           letter-spacing: 1px;
+           -webkit-font-smoothing: antialiased;
+}
+.form input{
+    width:25%;
+    height:12%;
+}
+
+.form #validation{
+    position:relative;
+    margin-top:2%;
+    width:30%;
+    height:3vw;
+
+    border-style:solid;
+    border-width:2px;
+    border-color:rgb(61, 43, 31);
+    border-radius:3px;
+
+    background-color:rgba(0,0,0,0);
+    color:rgb(61, 43, 31);
+
+    font-size:1vw;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+.file{
+    width:100%;
+    height:10vw;
+}
+.form #validation:hover{
+    background-color:rgb(61, 43, 31);
+    color:rgb(246, 235, 218);
+}
+#mainTitle{
+    position:relative;
+    text-align:center;
+    color:rgb(61, 43, 31);
+    font-family: 'Rouge Script', cursive;
+    font-size:7vw;
+    font-weight:100;
+}
+.realisations_list{
+    position:relative;
+    width:80%;
+    left:10%;
+
+    height:35 vw;
+
+}
+
+.cell{
+    position:relative;
+    width:50%;
+    height:30vw;
+}
+.realisation{
+   position:relative;
+   width:100%;
+   height:100%;
+    
+}
+
+.img{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.realisation:hover .img{
+    transition-duration:0.6s;
+    filter: brightness(50%);
+}
+
+.realisation:hover .title{
+    transition-duration: 0.6s;
+    color:rgba(250,250,250,1);
+}
+
+.realisation:hover .button{
+    transition-duration:0.6s;
+
+    border-color:rgba(225,225,225,1);
+
+    color:rgba(250,250,250,1);
+}
+
+.title{
+
+    position:absolute;
+
+    width:100%;
+    text-align:center;
+
+    font-size:4vw;
+    font-family: 'Rouge Script', cursive;
+    color:rgba(250,250,250,0);
+    font-weight:100;
+
+}
+.button{
+    position:absolute;
+    width:70%;
+    height:10%;
+
+    left:15%;
+    top:70%;
+
+    background-color:rgba(0,0,0,0);
+    
+    border-style:solid;
+    border-width:0.1w;
+    border-radius:2px;
+    border-color:rgba(0,0,0,0);
+    
+    font-size:1.5vw;
+    font-family: 'portcreb';
+    color:rgba(0,0,0,0);
+
+    cursor:pointer;
+}
+
+.realisation:hover .button:hover{
+    transition-duration:0s;
+    background-color:rgba(250,250,250,1);
+    color:black;
+}
+.suppr_button{
+	position: absolute;
+	right:0%;
+	top:0%;
+	height:2vw;
+    width:6%;
+    
+	background-color: rgb(187, 11, 11);
+	color:white;
+	border-width:0px;
+	border-radius:2px;
+        
+    text-align:left;
+	font-weight:bold;
+	font-size:1.2vw;
+
+	cursor:pointer;
+
+}

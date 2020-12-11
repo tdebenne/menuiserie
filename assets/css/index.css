@@ -1,0 +1,62 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    min-height:600px;
+}
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+@font-face {
+	font-family: 'TodayPeople';
+	src: url('./font/people/TodayPeople.eot');
+	src: local('TodayPeople'), url('./font/people/TodayPeople.woff') format('woff'), url('./font/people/TodayPeople.ttf') format('truetype');
+}
+
+body{
+    background-color:rgb(246, 235, 218);
+
+    font-size:1vw;
+    font-family: 'Saira Extra Condensed', sans-serif;
+           letter-spacing: 1px;
+           -webkit-font-smoothing: antialiased;
+
+}
+
+.prest_1 h1{
+    text-align:center;
+    color:rgb(61, 43, 31);
+    font-family:'TodayPeople';
+    font-size:7vw;
+}
+
+.prest_1 td{
+    padding:2%;
+
+}
+
+h4{
+    color: rgb(200, 173, 127);
+
+}
+
+article{
+    color:grey;
+}
+
+.prest_2{
+    position:relative;
+    width:100%;
+    background-color:rgb(61, 43, 31);
+    color:rgb(192,192,192);
+}
+.prest_2 h1{
+    position:relative;
+    text-align:center;
+    color: rgb(200, 173, 127);
+    font-family:'TodayPeople';
+    font-size:7vw;
+}
+
+.prest_2 p{
+    padding:2%;
+}

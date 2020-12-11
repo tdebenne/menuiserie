@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'portcreb';
+	src: url('./portcreb.eot');
+	src: local('portcreb'), url('./portcreb.woff') format('woff'), url('./portcreb.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_413">Text with this font applied</p> */
+.fontsforweb_fontid_413 {
+	font-family: 'portcreb' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

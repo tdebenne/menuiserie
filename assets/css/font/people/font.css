@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'TodayPeople';
+	src: url('./TodayPeople.eot');
+	src: local('TodayPeople'), url('./TodayPeople.woff') format('woff'), url('./TodayPeople.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_61792">Text with this font applied</p> */
+.fontsforweb_fontid_61792 {
+	font-family: 'TodayPeople' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

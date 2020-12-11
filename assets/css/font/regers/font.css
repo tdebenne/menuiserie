@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'ROGERS';
+	src: url('./ROGERS.eot');
+	src: local('ROGERS'), url('./ROGERS.woff') format('woff'), url('./ROGERS.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_308">Text with this font applied</p> */
+.fontsforweb_fontid_308 {
+	font-family: 'ROGERS' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

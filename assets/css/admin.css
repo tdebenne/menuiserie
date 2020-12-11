@@ -1,0 +1,138 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    min-height:0%;
+
+}
+body{
+    background-color:rgb(246, 235, 218);
+
+    font-size:1vw;
+    font-family: 'Saira Extra Condensed', sans-serif;
+           letter-spacing: 1px;
+           -webkit-font-smoothing: antialiased;
+
+
+}
+
+@font-face {
+	font-family: 'TodayPeople';
+	src: url('./font/people/TodayPeople.eot');
+	src: local('TodayPeople'), url('./font/people/TodayPeople.woff') format('woff'), url('./font/people/TodayPeople.ttf') format('truetype');
+}
+
+#connexion{
+    position:relative;
+    left:10%;
+    top:10%;
+
+    width:80%;
+    height:20vw;
+    
+    border-style:solid;
+    border-width:0.3vw;;
+    border-color:rgb(61, 43, 31);
+    border-radius:5px;
+
+    text-align:center;
+
+    padding:1%;
+
+    font-size:1vw;
+    font-family: 'Saira Extra Condensed', sans-serif;
+           letter-spacing: 1px;
+           -webkit-font-smoothing: antialiased;
+}
+
+
+
+#connexion h4{
+    font-size:1.1vw;
+    color:rgb(61, 43, 31);
+}
+
+#connexion input{
+    width:25%;
+    height:12%;
+}
+
+#connexion #validation{
+    margin-top:2%;
+    width:15%;
+    height:3vw;
+
+    border-style:solid;
+    border-width:2px;
+    border-color:rgb(61, 43, 31);
+    border-radius:3px;
+
+    background-color:rgba(0,0,0,0);
+    color:rgb(61, 43, 31);
+
+    font-size:1vw;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+#connexion #validation:hover{
+    background-color:rgb(61, 43, 31);
+    color:rgb(246, 235, 218);
+}
+
+.logout{
+    position:relative;
+    left:10%;
+    top:10%;
+
+    width:80%;
+    height:8vw;
+    
+    border-style:solid;
+    border-width:0.3vw;;
+    border-color:rgb(61, 43, 31);
+    border-radius:5px;
+
+
+    padding:1%;
+
+    font-size:1vw;
+    font-family: 'Saira Extra Condensed', sans-serif;
+           letter-spacing: 1px;
+           -webkit-font-smoothing: antialiased;
+}
+
+.logout label{
+    position:absolute;
+    text-align:center;
+    width:100%;
+    top:10%;
+    left:0%;
+}
+
+.logout input{
+    position:absolute;
+    margin-top:5%;
+    left:42.5%;
+    width:15%;
+    height:3vw;
+   
+    border-style:solid;
+    border-width:2px;
+    border-color:rgb(61, 43, 31);
+    border-radius:3px;
+
+    background-color:rgba(0,0,0,0);
+    color:rgb(61, 43, 31);
+
+    font-size:1vw;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+.logout input:hover{
+    background-color:rgb(61, 43, 31);
+    color:rgb(246, 235, 218);
+}
